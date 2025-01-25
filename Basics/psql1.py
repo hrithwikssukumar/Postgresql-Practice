@@ -41,3 +41,15 @@ VALUES('Hrithwik','Gokulam',28,8281278872)
 INSERT INTO Fruits(name,colour,size,price)
 VALUES('Apple','Red','Small',200)
 
+INSERT INTO Players(name,team,jersey,runs)
+VALUES('Virat','RCB','18',2500)
+
+INSERT INTO State(name,capital city,language,population)
+VALUES('Karnataka','Bengaluru','Kannada','28000')
+
+
+#fetch data
+SELECT name,address from TABLE Person
+SELECT * from TABLE Fruits
+SELECT team,jersey from TABLE Players
+SELECT * from TABLE State
